@@ -28,6 +28,8 @@ Delivery drives reviews: orders delivered on time averaged a review score of 4.3
 Top categories by revenue: health_beauty (about 1.26M), watches_gifts and bed_bath_table. Review scores vary by category, for example 4.18 for health_beauty against 3.62 for office_furniture.
 Payments: credit card accounts for 78% of payment value and boleto (bank slip) for 18%.
 Geography: sellers cluster in the south-east and south of Brazil, while customers are spread across the whole country.
+
+
 What I built
 Data preparation (Power Query)
 Corrected data types for dates, prices and review scores across the tables.
@@ -38,12 +40,16 @@ Data model
 Connected orders, order items, products, customers, sellers, reviews and payments with one-to-many relationships and single-direction filtering.
 Created a Date table in DAX and marked it as the model's date table.
 Worked around filter propagation: reviews and payments sit on the orders side of the model, so category-level views needed a CROSSFILTER measure to respond to filters coming from order items.
+
+
 DAX
 Calculated column: delivery status (on time or late, based on delivered date versus estimated delivery date).
 Core measures: Total Revenue, Orders, Average Order Value, Average Delivery Days (AVERAGEX), Total Paid.
 Reviews: Average Review Score using CALCULATE with CROSSFILTER.
 Time intelligence: Revenue YTD (TOTALYTD), Revenue LY (SAMEPERIODLASTYEAR) and YoY %.
 Ranking: Seller Rank with RANKX, used for a top 10 sellers table.
+
+
 Report
 Overview page: KPI cards, daily revenue trend, top 10 categories by revenue, and a year slicer.
 Analysis page: review score by delivery status, payment type breakdown, top 10 sellers, monthly revenue against last year, and revenue YTD.
@@ -53,6 +59,8 @@ Running it yourself
 Download the dataset from Kaggle (link above).
 Open the .pbix file in Power BI Desktop.
 If the data fails to load, go to Home → Transform data → Data source settings and point each file to where you saved the CSVs.
+
+
 Tools
 
 Power BI Desktop, Power Query (M), DAX
