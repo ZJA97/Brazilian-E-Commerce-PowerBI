@@ -6,11 +6,11 @@ An interactive Power BI report built on the Olist Brazilian e-commerce dataset (
 
 **Overview page**
 
-![Overview page: daily revenue trend, top 10 categories, KPI cards and year slicer](Image/Overview.JPG)
+![Overview page: daily revenue trend, top 10 categories, KPI cards and year slicer](Images/Overview.JPG)
 
 **Analysis page**
 
-![Analysis page: review score by delivery status, payment types, top 10 sellers, revenue vs last year and revenue YTD](Image/Analysis.JPG)
+![Analysis page: review score by delivery status, payment types, top 10 sellers, revenue vs last year and revenue YTD](Images/Analysis.JPG)
 
 ## Dataset
 
