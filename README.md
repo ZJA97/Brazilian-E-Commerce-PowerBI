@@ -14,7 +14,7 @@ An interactive Power BI report built on the Olist Brazilian e-commerce dataset (
 
 ## Dataset
 
-**Source:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) on Kaggle (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), published by Olist. All credit for the data goes to Olist; see the Kaggle page for the licence terms.
+**Source:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) All credit for the data goes to Olist; see the Kaggle page for the licence terms.
 
 It comes as 9 linked CSV files: orders, order items, products, customers, sellers, payments, reviews, geolocation and a category translation table.
 
